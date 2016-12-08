@@ -22,7 +22,7 @@ public class BubbleSort {
 	}
 
 	public static void main(String[] args) {
-		int[] table = { 6, 2, 8, 4, 5, 3, 7, 1, 9 };
+		int[] table = { 6, 2, 8, 4, 5, 0, 3, 7, 1, 9 };
 		bubblesort(table);
 		for (int i = 0; i < table.length; i++){
 			System.out.print(table[i]);
